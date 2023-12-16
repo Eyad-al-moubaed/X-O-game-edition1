@@ -48,7 +48,8 @@ const array = [1,2,3,4,5,6,7,8,9];
 //   })
 //   console.log(`this is array2`+Array2);
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
+    <>
     <div className="App">
     <div className='container'>
       <Routes>
@@ -57,8 +58,9 @@ const array = [1,2,3,4,5,6,7,8,9];
 <Route path="/second" element={<SecondPage/>}/>
       </Routes>
 </div>
-    </div>  
-    </BrowserRouter>
+    </div>
+    {/* </BrowserRouter> */}
+    </>  
   );
 }
 
