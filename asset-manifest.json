@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/X-O-game-edition1/static/css/main.e252e82b.css",
+    "main.js": "/X-O-game-edition1/static/js/main.30ca76ac.js",
+    "index.html": "/X-O-game-edition1/index.html",
+    "main.e252e82b.css.map": "/X-O-game-edition1/static/css/main.e252e82b.css.map",
+    "main.30ca76ac.js.map": "/X-O-game-edition1/static/js/main.30ca76ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e252e82b.css",
+    "static/js/main.30ca76ac.js"
+  ]
+}
