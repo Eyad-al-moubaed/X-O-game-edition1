@@ -53,9 +53,9 @@ const array = [1,2,3,4,5,6,7,8,9];
     <div className="App">
     <div className='container'>
       <Routes>
-        <Route path='/'element={<FirstMain/>}/>
-<Route path="/Main" element={<Main/>} />
-<Route path="/second" element={<SecondPage/>}/>
+        <Route exact path='/'element={<FirstMain/>}/>
+<Route exact path="/Main" element={<Main/>} />
+<Route exact path="/second" element={<SecondPage/>}/>
       </Routes>
 </div>
     </div>
