@@ -20,7 +20,6 @@ let dispatch = useDispatch()
 // setId(itemId)
 // if(ActivArr.length<9){
 //     dispatch(addId(itemId))
-    
 // }
 // }
 // function f(){
@@ -41,8 +40,6 @@ let dispatch = useDispatch()
 
 // console.log(arr[i].id)
 // console.log(item)
-
-
 // }
 return (
   <>

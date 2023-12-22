@@ -16,7 +16,7 @@ function FirstMain() {
  setallow(!allow)
 }}/>
   </div>
-        <audio controls preload='auto' muted={allow?true:false} autoPlay loop className='hidden' src='./music/Gaming_intro_Sound_Effect_Tkzx3epBqnQ_140.mp3'/>
+        <audio controls preload='auto' muted={allow?true:false} autoPlay loop className='hidden' src='music/Gaming_intro_Sound_Effect_Tkzx3epBqnQ_140.mp3'/>
         <h1>Warning <br/>
            
             كن حذرا

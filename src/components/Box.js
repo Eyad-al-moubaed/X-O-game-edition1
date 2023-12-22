@@ -172,7 +172,7 @@ return true;
   return (
       <div className='box' id={id}  onClick={check}>
        {allow1 &&
-       <audio controls   autoPlay    className='hidden' src='../music/pop_sound_effect_cute_BRp9rSeXc68_140 (mp3cut.net) (3).mp3'/>
+       <audio controls   autoPlay    className='hidden' src='music/pop_sound_effect_cute_BRp9rSeXc68_140 (mp3cut.net) (3).mp3'/>
        }    
     {
     ( (allow && player==1) || (fun===true && Countt==0 ))&&
