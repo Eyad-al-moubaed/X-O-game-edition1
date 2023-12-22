@@ -76,7 +76,7 @@ function Main() {
 </select>
 </div>
 </div>
-<Link to={allow?"/FirstMain":"/second"} className='start' onClick={()=>{
+<Link to={allow?"/Main":"/second"} className='start' onClick={()=>{
   let namelocal1=localStorage.getItem("name1")
   let namelocal2= localStorage.getItem("name2")
   dispatch(Names({namelocal1,namelocal2
