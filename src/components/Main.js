@@ -55,7 +55,7 @@ function Main() {
     <div className='Main'>
 <div className='center'>
     <div className='logo'>
-<img src="./x-o.png"/>
+<img src="/x-o.jpg"/>
     </div>
 <div className='bar'>
 <label className='title' for="firstPlayer">First Player Name:</label>
@@ -76,7 +76,7 @@ function Main() {
 </select>
 </div>
 </div>
-<Link to={allow?"/":"/second"} className='start' onClick={()=>{
+<Link to={allow?"/FirstMain":"/second"} className='start' onClick={()=>{
   let namelocal1=localStorage.getItem("name1")
   let namelocal2= localStorage.getItem("name2")
   dispatch(Names({namelocal1,namelocal2
