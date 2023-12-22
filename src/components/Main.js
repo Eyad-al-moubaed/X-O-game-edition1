@@ -55,7 +55,7 @@ function Main() {
     <div className='Main'>
 <div className='center'>
     <div className='logo'>
-    <audio controls preload='auto' autoPlay loop className='hidden' src='./music/Gaming_intro_Sound_Effect_Tkzx3epBqnQ_140.mp3'/>
+    <audio controls preload='auto' autoPlay loop  src='../Gaming_intro_Sound_Effect_Tkzx3epBqnQ_140.mp3'/>
 
 <img src="./x-o.jpg"/>
     </div>
