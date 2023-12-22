@@ -55,7 +55,7 @@ function Main() {
     <div className='Main'>
 <div className='center'>
     <div className='logo'>
-<img src="/x-o.jpg"/>
+<img src="./x-o.jpg"/>
     </div>
 <div className='bar'>
 <label className='title' for="firstPlayer">First Player Name:</label>

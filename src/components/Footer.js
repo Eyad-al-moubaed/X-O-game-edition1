@@ -8,7 +8,7 @@ function Footer() {
   console.log(result);
   return (
     <div className='Footer'>     
-      {result && <AudioPlayer autoPlay className='hidden' src='../music/Coin_Collect_Jackpot_Win_Sound_Fx_Download_Free_Downloa_Fn3ipwTA9xA.mp3'/>
+      {result && <AudioPlayer autoPlay className='hidden' src='/music/Coin_Collect_Jackpot_Win_Sound_Fx_Download_Free_Downloa_Fn3ipwTA9xA.mp3'/>
       }
       {result}
       <div className='notification'>
