@@ -2,11 +2,14 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom'
 import { Names } from './Redux/Slice';
+import VolumeUpIcon from '@mui/icons-material/VolumeUp';
+import VolumeMuteIcon from '@mui/icons-material/VolumeMute';
 
 function Main() {
   let [name1,setname1]=useState("");
   let [name2,setname2]=useState("");
   let [allow,setAllow] = useState(true);
+  let [allow1,setAllow1] = useState(false);
   let [click,setClick] =useState(false);
   let [access,setAccess]=useState(true)
   let ref =useRef()
@@ -53,9 +56,20 @@ function Main() {
     // console.log(ref.current.value)
   return (
     <div className='Main'>
+            <div className={allow1?"hidden":"vol"}>
+<VolumeUpIcon className='large' onClick={()=>{
+ setAllow1(!allow1)
+}}/>
+  </div>
+  <div className={allow1?"vol":"hidden"}>
+<VolumeMuteIcon className='large' onClick={()=>{
+ setAllow1(!allow1)
+}}/>
+</div>
 <div className='center'>
+  
     <div className='logo'>
-    <audio controls preload='auto'className='hidden'  autoPlay loop  src='./music/Gaming_intro_Sound_Effect_Tkzx3epBqnQ_140.mp3'/>
+    <audio controls preload='auto'className='hidden'  muted={allow1?true:false}  autoPlay loop  src='./music/Gaming_intro_Sound_Effect_Tkzx3epBqnQ_140.mp3'/>
 
 <img src="./x-o.jpg"/>
     </div>

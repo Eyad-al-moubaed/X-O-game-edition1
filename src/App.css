@@ -205,3 +205,16 @@ select{
 .FinalPage {
     color: white;
 }
+
+.Main .vol{
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    z-index: 100;
+}
+@media (max-width:375px) {
+   .Main .vol{
+        left: 20px;
+    }
+}
