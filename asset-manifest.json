@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/X-O-game-edition1/static/css/main.f5b2b1ba.css",
-    "main.js": "/X-O-game-edition1/static/js/main.11e0c9ec.js",
+    "main.css": "/X-O-game-edition1/static/css/main.2b14adf8.css",
+    "main.js": "/X-O-game-edition1/static/js/main.9dc99657.js",
     "index.html": "/X-O-game-edition1/index.html",
-    "main.f5b2b1ba.css.map": "/X-O-game-edition1/static/css/main.f5b2b1ba.css.map",
-    "main.11e0c9ec.js.map": "/X-O-game-edition1/static/js/main.11e0c9ec.js.map"
+    "main.2b14adf8.css.map": "/X-O-game-edition1/static/css/main.2b14adf8.css.map",
+    "main.9dc99657.js.map": "/X-O-game-edition1/static/js/main.9dc99657.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5b2b1ba.css",
-    "static/js/main.11e0c9ec.js"
+    "static/css/main.2b14adf8.css",
+    "static/js/main.9dc99657.js"
   ]
 }
