@@ -7,6 +7,7 @@ import { BrowserRouter, Routes ,Route} from 'react-router-dom';
 import SecondPage from './components/SecondPage';
 import Main from './components/Main';
 import FirstMain from './components/FirstMain';
+import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 function App() {
 const array = [1,2,3,4,5,6,7,8,9];
   let [value,setValue] = useState(0);
@@ -51,6 +52,7 @@ const array = [1,2,3,4,5,6,7,8,9];
     // <BrowserRouter>
     <>
     <div className="App">
+      {/* <KeyboardBackspaceIcon/> */}
     <div className='container'>
       <Routes>
         <Route exact path='/'element={<FirstMain/>}/>

@@ -173,6 +173,8 @@ flex-direction: column;
     }
   .Main .center .bar{
         width:250px;
+    display: flex;
+    align-items: center;
     }
 .footer_main{
 font-size: 11px;
@@ -209,12 +211,12 @@ select{
 .Main .vol{
     color: white;
     position: absolute;
-    left: 100px;
+    right: 100px;
     top: 50px;
     z-index: 100;
 }
-@media (max-width:375px) {
+@media(max-width:376px) {
    .Main .vol{
-        left: 20px;
+        right: 50px;
     }
 }

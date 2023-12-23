@@ -54,8 +54,9 @@ function Main() {
       }
     },[name1,name2,click,value1,value2])
     // console.log(ref.current.value)
-  return (
-    <div className='Main'>
+    return (
+      <div className='Main'>
+      <audio controls preload='auto'className='hidden'  muted={allow1?true:false}  autoPlay loop  src='./music/Gaming_intro_Sound_Effect_Tkzx3epBqnQ_140.mp3'/>
             <div className={allow1?"hidden":"vol"}>
 <VolumeUpIcon className='large' onClick={()=>{
  setAllow1(!allow1)
@@ -69,7 +70,6 @@ function Main() {
 <div className='center'>
   
     <div className='logo'>
-    <audio controls preload='auto'className='hidden'  muted={allow1?true:false}  autoPlay loop  src='./music/Gaming_intro_Sound_Effect_Tkzx3epBqnQ_140.mp3'/>
 
 <img src="./x-o.jpg"/>
     </div>
@@ -99,7 +99,7 @@ function Main() {
   }))
 setClick(true)
 }}>start</Link>
-<div className={access?'hidden':"error_Message"}>please insert the players names
+<div className={access?'hidden':"error_Message"}>please insert the players names<br/>
 الرجاء ادخال اسماء اللاعبين
 </div>
 </div>
